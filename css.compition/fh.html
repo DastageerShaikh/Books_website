@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News Ticker</title>
+  <style>
+    
+
+
+   *{
+      font-family: Arial, sans-serif;
+      margin: 0%;
+      padding: 0%;
+     align-items: center;
+     justify-content: center;
+     box-sizing: border-box;
+  
+    }
+    .message{
+      color:white;
+      display: flex;
+    }
+    .news-ticker {
+      position: relative;
+      overflow: hidden;
+      white-space: nowrap;
+      background: #d93c3c;
+      border: 1px solid #9a0a0a;
+      padding: 10px ;
+     
+    }
+
+    .news-ticker .messages {
+      display: inline-block;
+      animation: scroll 60s linear infinite;
+      animation-timing-function: linear;
+    }
+
+    .news-ticker:hover .messages {
+      animation-play-state: paused; /* Pause scrolling on hover */
+    }
+
+    .news-ticker .message {
+      display: inline-block;
+      margin-right: 100px; /* Space between messages */
+    }
+
+    @keyframes scroll {
+      0% {
+        transform: translateX(0); /* Start at the beginning */
+       }
+      100% {
+        transform: translateX(-100%); /* Scroll left out of view*/
+      }  
+    } 
+
+
+    header{
+      display: flex;
+    }
+
+    body{
+      height: 100px;
+      /* display: flex; */
+      justify-content: center;
+      align-items: center;
+    }
+    .box{
+      background-color: white;
+      width: 400px;
+      height: 50px;
+      display: flex;
+      border-radius: 50px;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0px 25px;
+      border: 2px solid black;
+      margin-right: 300px;
+      margin-top: 20px;
+      
+    }
+    input{
+      width: 360px;
+      border: none;
+      outline: none;
+      background: none;
+      font-size: 18px;
+      
+    }
+    .fa-solid:hover{
+      color:orangered;
+      cursor: pointer;
+    }
+
+    .fa-brands{
+      font-size: 20px;
+      margin: 20px;
+    }
+
+ 
+    .list-h{
+    width: 150%;
+    text-align: center;
+    background-color: wheat;
+  }
+  ul li{
+   
+    list-style:none ;
+    display: inline-block;
+  }
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    
+    display: inline-block;
+    padding: 20px;
+    line-height: 50px;
+    color: black;
+}
+.hankar:hover{
+    text-decoration: underline;
+    color:red;
+    transition: 0.3s;
+}
+
+section{
+  background-color: whitesmoke;
+  height: 100PX;
+  width: 100%;
+  display: flex;
+}
+H1{
+  font-size: 100PX;
+  font-family: 'Times New Roman', Times, serif;
+  color: #d93c3c;
+  text-align: center;
+}
+#a{
+  color: blueviolet;
+}
+#b{
+  color: chocolate;
+}
+.class{
+  background-color: lightblue;
+  height: 200px;
+}
+.ass{
+   
+}
+
+
+
+
+  </style>
+  <link rel="stylesheet" href="   https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+<body>
+  <div class="news-ticker">
+    <div class="messages">
+      <span class="message">- FLAT 10% OFF (Maximum Discount Rs 50). Use code - AHGRCI56</span>
+      <span class="message">- Grab Bestselling Books up to 50% Off!</span>
+      <span class="message">- FLAT 10% OFF (Maximum Discount Rs 50). Use code - AHGRCI56</span>
+      <span class="message">- Grab Bestselling Books up to 50% Off!</span>
+      <span class="message">- FLAT 10% OFF (Maximum Discount Rs 50). Use code - AHGRCI56</span>
+      <span class="message">- Grab Bestselling Books up to 50% Off!</span>
+      <span class="message">- FLAT 10% OFF (Maximum Discount Rs 50). Use code - AHGRCI56</span>
+      <span class="message">- Grab Bestselling Books up to 50% Off!</span>
+      <span class="message">- FLAT 10% OFF (Maximum Discount Rs 50). Use code - AHGRCI56</span>
+      <span class="message">- Grab Bestselling Books up to 50% Off!</span><span class="message">- FLAT 10% OFF (Maximum Discount Rs 50). Use code - AHGRCI56</span>
+      <span class="message">- Grab Bestselling Books up to 50% Off!</span><span class="message">- FLAT 10% OFF (Maximum Discount Rs 50). Use code - AHGRCI56</span>
+      <span class="message">- Grab Bestselling Books up to 50% Off!</span><span class="message">- FLAT 10% OFF (Maximum Discount Rs 50). Use code - AHGRCI56</span>
+      <span class="message">- Grab Bestselling Books up to 50% Off!</span><span class="message">- FLAT 10% OFF (Maximum Discount Rs 50). Use code - AHGRCI56</span>
+      <span class="message">- Grab Bestselling Books up to 50% Off!</span>
+    </div>
+   </div>
+   <section>
+    <H1 id="a">Book</h1>
+      <h1 id="b">Shop</h1>
+     <h1> .com</H1>
+     </section>
+   <header>
+      <div class="box">
+          <input type="text" placeholder="Search by Tile, publisher  or ISBN" >
+          <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+     
+      <i class="fa-brands fa-square-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-twitter"></i>
+   </header>
+
+   <header>
+    <UL class="list-h">
+      <li><a href="" class="hankar">Home</a></li>
+      <li><a href="" class="hankar">Shop</a></li>
+      <li><a href="" class="hankar">About</a></li>
+      <li><a href="" class="hankar">Blog</a></li>
+      <li><a href="" class="hankar">Contact</a></li>
+  </UL>
+   </header>
+   <h2 class="aas">Kid Books</h2>
+   <section class="class">
+
+   </section>
+   <h2 class="aas">Anime Books</h2>
+   <section class="class">
+
+   </section>
+   <h2 class="aas">studet Books</h2>
+   <section class="class">
+
+   </section>
+ </body>
+</html> 

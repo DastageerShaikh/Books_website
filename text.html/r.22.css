@@ -1,0 +1,82 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: "Gowun Batang", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  header{
+    height: 100px;
+    width: 100%;
+    background-color:rgba(13, 114, 139, 0.756);
+    display: flex;
+  }
+  .hlogo{
+    width: 25%;
+    text-align: center;
+  }
+  .logo{
+    display: inline-block;
+    line-height: 85px;
+  }
+  #do{
+    color: rgb(182, 35, 182);
+  }
+  .list-h{
+    width: 50%;
+    text-align: center;
+  }
+  ul li{
+    list-style:none ;
+    display: inline-block;
+  }
+ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+    padding: 20px;
+    line-height: 50px;
+    color: black;
+}
+.hankar:hover{
+    text-decoration: underline;
+    color: aqua;
+    transition: 0.3s;
+}
+.h-icon{
+    width: 25%;
+    text-align: right;
+    line-height: 80px;
+   }
+.h-icon i{
+    font-size: 20px;
+    padding: 10px;
+}
+.box{
+    background-color: gray;
+    height: 300px;
+    width: 100%;
+   
+}
+img{
+    height: 200px;
+    width: 100%;
+}
+
+.as{
+    background-image:url(/img.time2.jpeg);
+    height: 550px ;
+    width: 100%;
+  
+    
+}
+.aa{
+    font-size: 20px;
+    line-height: 20px;
+    text-align: 90px;
+}
+aside{
+    text-align: center;
+}

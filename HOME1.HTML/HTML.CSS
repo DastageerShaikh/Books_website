@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+  display: flex;
+  box-shadow: 2px 5px 15px black; 
+  background-color: rgb(205, 136, 136);
+}
+header i{
+  font-size: 40px;
+  margin-top: 20px;
+  margin-left: 30px;
+  color:rgb(46, 39, 39);
+}
+header li{
+  list-style: none;
+  padding-left: 40px;
+  margin-top: 30px;
+}
+ul li:hover{
+  color: rgb(204, 204, 25);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: rgb(20, 13, 5);
+}
+ul{
+  display: flex;
+  margin-left: 150px;
+  font-size: 20px;
+}
+ol{
+  display: flex;
+  margin-left: 210px;
+
+}
+ol li{
+  font-size: 20px;
+  margin-left: 0px;
+}
+
+.box{
+  background-color: white;
+  width: 400px;
+  height: 50px;
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 25px;
+  border: 2px solid black;
+  margin-left:100px;
+  margin-top: 15px;
+}
+input{
+  width: 300px;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 18px; 
+}
+.fa-solid{
+  margin-bottom: 20px;
+  padding-left: 20px;
+  font-size: 30px;
+}
+.fa-solid:hover{
+  color:burlywood;
+  cursor: pointer;
+}
+.text-log{
+  height: 40px;
+  margin-top: 15px;
+  width: 100px;
+  border-radius: 20px;
+  margin-left: 50px;
+  background-color: white;
+  font-size: 15px;
+  outline: none;
+
+}
+.a:hover{
+  color: black;
+}
+nav{
+  backdrop-filter: blur(5px); 
+  background-image: url(/HOME1.HTML/img5.jpg   );
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 160vb;
+  
+}
+h1{
+  font-size: 35px;
+  margin-bottom: 180px;
+  margin-left: 30px;
+  text-align: center;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+  color: white;
+  font-size: 20px;
+  
+}

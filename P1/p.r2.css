@@ -1,0 +1,100 @@
+.three h1{
+    text-align: center;
+}
+.th img{
+height: 200px;
+font-size: 50px;
+padding-top: 10px;
+margin-left: 30px;
+border-radius: 10px;
+}
+.th h2{
+margin-left: 40px;
+color:black;
+font-weight: lighter;
+}
+.th h4{
+margin-left: 40px;
+color: darkcyan;
+}
+.th b{
+margin-left: 50px;
+color: black;
+}
+.th i{
+text-decoration: line-through;
+}
+.th button{
+height: 50px;
+width: 150px;
+border-radius: 10px;
+margin-left: 20px;
+background-color: turquoise;
+color: white;
+border: none;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.th button:hover{
+box-shadow: 2px 2px 5px black;
+}
+.a{
+display: flex;
+overflow: scroll;
+overflow-y: hidden;
+}
+.th em{
+margin-left: 50px;
+border: 2px solid darkcyan;
+color: white;
+background-color: teal;
+border-radius: 10px;
+padding: 3px;
+}
+
+.four h1{
+    text-align: center;
+}
+.fr{
+    border: 1px solid black;
+    margin-left: 30px;
+}
+.fr img{
+    height: 200px;
+    padding: 20px;
+    margin-left: 25px;
+}
+.fr h2{
+    margin-top: 0px;
+    margin-left: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.fr b{
+    font-size: 25px;
+    margin-left: 40px;
+    
+}
+.fr button{
+    height: 30px;
+    margin-left: 50px;
+    width: 90px;
+    background-color: white;
+    border-color: turquoise;
+    margin-bottom: 20px;
+}
+.b{
+    display: flex;
+}
+
+.b{
+    transform: rotateY(calc(var(--i)*45deg)) translateZ(350px);
+    transform-style: preserve-3d;
+}
+.fr img:hover{
+    transform: translateY(50px) scale(1.2);
+}
+.fr img{
+    object-fit: cover;
+    transition: 2s;
+}

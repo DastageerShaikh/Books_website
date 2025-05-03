@@ -1,0 +1,48 @@
+
+
+body{
+    background-color: rgb(92, 4, 92);
+}
+div{
+    height: 420px;
+    width: 320px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+   
+    margin-left: 550px;
+    margin-top: 100px;
+}
+#a{
+    background-color: rgb(87, 6, 87);
+    border-radius: 20px;
+    width: 300px;
+    height: 40px;
+    box-shadow: 5px 5px;
+}
+.a{
+    width: 280px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 4px 4px;
+}
+.b{
+    text-align: center;
+    color: rgb(94, 2, 94);
+}
+
+.c{
+    color: rgb(3, 0, 0);
+}
+
+.D{
+    box-shadow: 25px 25px rgba(5, 1, 1, 0.262);
+
+
+}   
+.aa{
+    text-align: center;
+}
+a{
+    color: rgb(83, 2, 83);
+}

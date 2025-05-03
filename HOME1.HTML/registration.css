@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background: url('./bg.jpg') no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.RegistrationFrom{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+}
+.RegistrationFrom h1{
+    font-size: 30px;
+    text-align: center;
+    text-transform:uppercase;
+    margin: 40px 0px;
+}
+.RegistrationFrom p{
+    font-size: 16px;
+    margin: 15px 0px;
+}
+
+.RegistrationFrom input{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+.RegistrationFrom button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0px ;
+    padding: 10px 15px;
+    width: 50%;
+    bottom: 0;
+    border-radius: 5px; 
+    background-color: white;
+}
+.RegistrationFrom button:hover{
+    color: red;
+}
+.submit{
+    align-self: start;
+   
+}

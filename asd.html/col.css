@@ -1,0 +1,66 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+header{
+    height: 100px;
+    background-color:rgb(107, 20, 178);
+    text-align: center;
+  
+}
+
+nav{
+    height: 50px;
+    background-color:lawngreen;
+    text-align: center;
+}
+
+#c{
+    padding-top: 7px;
+}
+
+.container{
+    height: 250px;
+    text-align: center;
+    display: flex;
+}
+
+
+aside{
+    width: 50%;
+    background-color:palevioletred;
+
+}
+section{
+    width: 50%;
+    background-color: yellow;
+}
+
+.aa{
+    height: 250px;
+    display: flex;
+    text-align: center;
+}
+.a{
+    width: 50%;
+   
+    background-color: peru;
+}
+article{
+    width: 50%;
+    background-color: rgb(99, 4, 29);
+  
+}
+footer{
+    height: 88px;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+#b{
+    padding-top: 20px;
+}
+
+

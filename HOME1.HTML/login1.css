@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    backdrop-filter: blur(5px);
+    background-image: url(/HOME1.HTML/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background: rgb(219, 209, 209); */
+}
+.claas{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 440px;
+    height: 480px;
+    padding: 30px;
+
+}
+.one{
+    text-align: center;
+    margin: 20px 0 40px 0;
+   
+}
+.claas header{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+}
+.two .input-one{
+    width: 100%;
+    height: 60px;
+    font-size: 17px;
+    padding: 0 25px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 5px 10px 10px rgba(0,0,0,0.05);
+    outline: none;
+    transition: .3s;    
+}
+::placeholder{
+    color: #222;
+    font-weight: 500;
+}
+.input-one:focus{
+    width: 105%;
+}
+.four{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+section{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color:darkcyan;
+}
+#check{
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+section a{
+    color:rgb(157, 195, 195);
+}
+.five{
+    position: relative;
+}
+.submit-input{
+    width: 100%;
+    height: 60px;
+    background: #222;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+.five label{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    color: white;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.submit-input:hover{
+    background: #000;
+    transform: scale(1,05,1);
+}
+.six{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.six a{
+    color: black;
+    font-weight: 600;   
+}

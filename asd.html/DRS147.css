@@ -1,0 +1,15 @@
+
+
+.a{
+    background-color:rgb(77, 213, 213);
+    height: 200px;
+    width: 500px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.b{
+    color: green;
+}
