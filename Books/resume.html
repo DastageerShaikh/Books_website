@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayesha Shaikh - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0.5in;
+            background: white;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 20px;
+        }
+        
+        .name {
+            font-size: 28px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .contact-info {
+            font-size: 14px;
+            color: #666;
+        }
+        
+        .contact-info span {
+            margin: 0 10px;
+        }
+        
+        .section {
+            margin-bottom: 25px;
+        }
+        
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #2c3e50;
+            border-bottom: 1px solid #bdc3c7;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+        
+        .objective {
+            text-align: justify;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        
+        .education-item, .experience-item, .project-item {
+            margin-bottom: 15px;
+        }
+        
+        .edu-header, .exp-header, .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+        
+        .degree, .position {
+            font-weight: bold;
+            font-size: 15px;
+            color: #2c3e50;
+        }
+        
+        .institution, .company {
+            font-style: italic;
+            color: #666;
+        }
+        
+        .date {
+            font-size: 13px;
+            color: #666;
+            font-weight: bold;
+        }
+        
+        .details {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 5px;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            font-size: 14px;
+        }
+        
+        .skill-category {
+            margin-bottom: 10px;
+        }
+        
+        .skill-title {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        
+        ul {
+            padding-left: 20px;
+            margin-bottom: 10px;
+        }
+        
+        li {
+            margin-bottom: 5px;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+        
+        .tech-stack {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-top: 5px;
+        }
+        
+        .achievement-list {
+            font-size: 14px;
+        }
+        
+        .achievement-list li {
+            margin-bottom: 8px;
+        }
+        
+        @media print {
+            body {
+                margin: 0;
+                padding: 0.5in;
+                font-size: 12px;
+            }
+            
+            .section {
+                margin-bottom: 20px;
+            }
+            
+            .name {
+                font-size: 24px;
+            }
+            
+            .section-title {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="name">AYESHA SHAIKH</div>
+        <div class="contact-info">
+            <span>📍 Patri Pull Kalyan City, 421306</span>
+            <span>📞 9324165344</span>
+            <span>✉️ ayesha.rafique403@gmail.com</span>
+            <br>
+            <span>🔗 linkedin.com/in/ayesha-shaikh-0a75a0262</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Objective</div>
+        <div class="objective">
+            A motivated and results-driven software developer with a strong foundation in programming and software engineering. Eager to apply my technical skills in software development, problem-solving, and continuous learning to contribute to innovative projects. Passionate about building efficient, scalable solutions and working collaboratively in dynamic environments to drive organizational success and personal growth.
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Education</div>
+        
+        <div class="education-item">
+            <div class="edu-header">
+                <div>
+                    <div class="degree">Bachelor of Computer Engineering</div>
+                    <div class="institution">University of Mumbai</div>
+                </div>
+                <div class="date">2022-2024</div>
+            </div>
+            <div class="details">CGPA: 7.0</div>
+        </div>
+
+        <div class="education-item">
+            <div class="edu-header">
+                <div>
+                    <div class="degree">Diploma in Computer Engineering</div>
+                    <div class="institution">University of Mumbai</div>
+                </div>
+                <div class="date">2018-2020</div>
+            </div>
+            <div class="details">Percentage: 83.89%</div>
+        </div>
+
+        <div class="education-item">
+            <div class="edu-header">
+                <div>
+                    <div class="degree">Secondary School</div>
+                    <div class="institution">Maharashtra State Board</div>
+                </div>
+                <div class="date">2016-2017</div>
+            </div>
+            <div class="details">Percentage: 72.40%</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Technical Skills</div>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <div class="skill-title">Programming Languages:</div>
+                C++ (Intermediate), Java (Intermediate), Python, PHP, JavaScript (Basic)
+            </div>
+            <div class="skill-category">
+                <div class="skill-title">Database:</div>
+                MySQL, MongoDB
+            </div>
+            <div class="skill-category">
+                <div class="skill-title">Frameworks:</div>
+                Laravel, CodeIgniter 4, MERN Stack
+            </div>
+            <div class="skill-category">
+                <div class="skill-title">Tools & Technologies:</div>
+                Postman, Git, Selenium, YOLO, JWT, Firebase, Google OAuth, Twilio API
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Professional Experience</div>
+
+        <div class="experience-item">
+            <div class="exp-header">
+                <div>
+                    <div class="position">Backend Developer</div>
+                    <div class="company">DigiXpressions Media Pvt Ltd</div>
+                </div>
+                <div class="date">Jan 2025 - Present</div>
+            </div>
+            <div style="margin-left: 15px;">
+                <strong>App Ranking CRM:</strong>
+                <ul>
+                    <li>Developed RESTful APIs to track and analyze website performance with role-based access control</li>
+                    <li>Implemented data visibility rules for different user roles (Admin, TL, Manager, Customer)</li>
+                    <li>Used Selenium to scrape Google Search Console data and integrate GSC and GA in CRM</li>
+                    <li>Implemented background processing and caching for real-time analytics</li>
+                </ul>
+                <div class="tech-stack">Tech Stack: Laravel, MySQL, Postman</div>
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <div class="exp-header">
+                <div>
+                    <div class="position">Backend Developer</div>
+                    <div class="company">Zyntric Pvt Ltd</div>
+                </div>
+                <div class="date">Sep 2024 - Jan 2025</div>
+            </div>
+            <div style="margin-left: 15px;">
+                <strong>Stock CRM:</strong>
+                <ul>
+                    <li>Developed RESTful APIs for lead management, status tracking, and role-based access control</li>
+                    <li>Implemented data visibility rules for different user roles (Superadmin, Admin, TL, Agent)</li>
+                </ul>
+                <div class="tech-stack">Tech Stack: Laravel, MySQL, Postman</div>
+
+                <strong style="margin-top: 10px; display: block;">SMS Module CRM:</strong>
+                <ul>
+                    <li>Built APIs for two-way SMS communication, automating message delivery with cron jobs</li>
+                    <li>Integrated real-time messaging via Twilio API and designed user-friendly interfaces</li>
+                    <li>Integrated SMS gateway with multi-sim device (512 SIM cards) for SMS marketing</li>
+                    <li>Developed backend APIs to capture incoming messages and store them in database</li>
+                </ul>
+                <div class="tech-stack">Tech Stack: Laravel, MySQL, Twilio API, Cron Jobs, Git</div>
+
+                <strong style="margin-top: 10px; display: block;">ZynEdge:</strong>
+                <ul>
+                    <li>Developed APIs for company CRM using traits, service requests, resources, and models in Laravel</li>
+                    <li>Ensured efficient and scalable API development for streamlined company management</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <div class="exp-header">
+                <div>
+                    <div class="position">Software Engineer</div>
+                    <div class="company">Zyntric Pvt Ltd</div>
+                </div>
+                <div class="date">Feb 2024 - Aug 2024</div>
+            </div>
+            <ul>
+                <li>Designed landing pages and static websites, hosting on DigitalOcean and Hostinger</li>
+                <li>Created web scraping scripts using Selenium Python for fetching data from different countries</li>
+                <li>Developed Master Lead module using PHP, JavaScript, and CodeIgniter 4 with Adminer database</li>
+                <li>Implemented JWT, Firebase, and Google OAuth for secure user authentication</li>
+                <li>Developed CRUD operations for property listings using MongoDB with image upload features</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Engineering Projects</div>
+
+        <div class="project-item">
+            <div class="project-header">
+                <div class="position">Smart School System</div>
+                <div class="date">Aug 2023 - Dec 2023</div>
+            </div>
+            <ul>
+                <li>Developed a comprehensive school management system using PHP, MySQL, and JavaScript</li>
+                <li>Automated administrative tasks including student management, attendance, and grade management</li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <div class="project-header">
+                <div class="position">Memory Container</div>
+            </div>
+            <ul>
+                <li>Developed a MERN stack application for users to add and display memories (notes and images) from trips</li>
+                <li>Enabled users to view memories anytime, anywhere with responsive design</li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <div class="project-header">
+                <div class="position">Egg Detection System</div>
+            </div>
+            <ul>
+                <li>Built a YOLO-based machine detection system in Python to identify damaged eggs in images and videos</li>
+                <li>Implemented real-time notifications for quality control purposes</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Achievements</div>
+        <div class="achievement-list">
+            <ul>
+                <li>Participated in Project Competition by Theem College of Engineering</li>
+                <li>Basic Python Certification by Udemy</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        // Add print functionality
+        window.addEventListener('load', function() {
+            // This will help with formatting when printing to PDF
+            if (window.location.search.includes('print')) {
+                window.print();
+            }
+        });
+    </script>
+</body>
+</html>
